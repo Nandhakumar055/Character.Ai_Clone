@@ -1,0 +1,83 @@
+
+
+.try-saying-container{
+    display: flex;
+    padding: 0px;
+    max-width: 0px -5px;
+    overflow-x: auto;
+}
+
+.try-saying-container::-webkit-scrollbar{
+    display: none;
+}
+
+.try-saying-card-item{
+    list-style: none;
+    padding: 15px;
+    border-radius: 10px;
+    min-width: 420px;
+    background-color: rgb(221, 221, 221);
+    margin: 5px;
+}
+
+.user-profile-container{
+    display: flex;
+    align-items: center;
+}
+
+.profile-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.user-profile-name{
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom:7px;
+}
+
+.user-profile-details{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    flex-wrap: nowrap;
+}
+
+.user-id-text{
+    list-style: none;
+    color:  rgb(100, 98, 98);
+    font-size: 13px;
+    margin-top: 0px;
+    width: 100%;
+    text-wrap: nowrap;
+    margin-right: 10px;
+}
+
+.user-profile-details-text{
+    color: rgb(100, 98, 98);
+    font-size: 14px;
+    margin-top: 0px;
+    width: 100%;
+    list-style-type: disc;
+    margin: 0px 10px;
+    text-wrap: nowrap;
+}
+
+.user-bio-text-container{
+    padding: 0px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.user-bio-text{
+    list-style: none;
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color:rgb(211, 209, 209);
+    margin: 4px 0px;
+    border-radius: 10px;
+}

@@ -1,0 +1,29 @@
+
+
+.featured-category-container{
+    display: flex;
+    padding: 20px 0px;
+    margin: 0px -5px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.featured-category-container::-webkit-scrollbar{
+    display: none;
+}
+
+.category-card-item{
+    list-style: none;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    color:  rgb(87, 84, 84);
+    background-color: rgb(218, 218, 218) ;
+    width: 100%;
+    text-wrap: nowrap;
+}
+
+.category-card-item:hover {
+    background-color: rgb(26, 26, 26);
+    color: white;
+}

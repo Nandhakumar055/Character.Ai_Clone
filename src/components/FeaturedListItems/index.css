@@ -1,0 +1,85 @@
+
+
+.featured-container{
+   padding: 0px;
+   display: flex;
+   margin: 0px -5px;
+   overflow-x: auto;
+}
+.featured-container::-webkit-scrollbar{
+    display: none;
+}
+
+
+.featured-item-card{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    border-radius: 15px;
+    min-width: 350px;
+    margin: 5px;
+    background-color: rgb(223, 211, 211) ;
+    height: 165px;
+}
+
+.featured-image{
+    width: 100px;
+    height: 125px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.featured-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 12px
+}
+
+.featured-heading{
+    margin: 0;
+    font-size: 15px;
+}
+.featured-name{
+    font-size: 13px;
+    color: rgb(87, 84, 84);
+    margin: 7px 0px;
+}
+.featured-description{
+    font-size: 14px;
+    margin: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-height: 17px;
+}
+
+.comment-and-like-container{
+    display: flex;
+    align-items: center;
+}
+
+.comment-count-container{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.count-text {
+    color: rgb(87, 84, 84);
+    font-size: 13px;
+    margin: 0;
+    padding-left: 6px;
+}
+
+
+.like-count-container{
+    display: flex;
+    align-items: center;
+}
+
+.not-display-like-count {
+    display: none;
+}
+
